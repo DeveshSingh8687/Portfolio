@@ -175,18 +175,18 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "As a team lead on the MetricStream project, Devesh consistently showed unwavering dedication, rapid learning ability, punctuality in meeting deadlines, commendable ownership, and a strong grip on technical skills.",
+      name: "Damarla Balaji",
+      designation: "Senior S.E.",
+      company: "MetricStream",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      name: "Pooja Kamboj",
+      designation: "Senior S.E.",
+      company: "Trantor Software",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
