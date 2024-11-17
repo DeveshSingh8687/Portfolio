@@ -17,12 +17,15 @@ import {
     docker,
     meta,
     starbucks,
+    trantor,
+    VirtualIntelligence,
     tesla,
     shopify,
     carrent,
     ecommmerce,
     Legitron,
     GRC,
+    RealEstate,
     jobit,
     tripguide,
     threejs,
@@ -53,11 +56,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Next Js Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -120,10 +123,10 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Trantor Software ",
+      icon: trantor,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2021 - February 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -131,38 +134,25 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Vitual Intelligence",
+      icon: VirtualIntelligence,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "September 2024 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -179,24 +169,24 @@ import {
       name: "Damarla Balaji",
       designation: "Senior S.E.",
       company: "MetricStream",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      // image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I had the pleasure of mentoring Devesh as their Team Lead. He quickly mastered frontend technologies and contributed creatively to the projects. With strong problem-solving skills and great work ethic.",
       name: "Pooja Kamboj",
       designation: "Senior S.E.",
       company: "Trantor Software",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      // image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
   const projects = [
@@ -224,7 +214,7 @@ import {
     {
       name: "Legitron",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Online Platform for legal document analysis and data-driven insights tailored to the need of law firm. Works for enable user to upload and analyse legal document online.",
       tags: [
         {
           name: "react",
@@ -261,6 +251,27 @@ import {
         },
       ],
       image: GRC,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "E-Commerce",
+      description:
+        "A user-friendly real estate website designed for seamless property browsing, featuring advanced search filters, responsive design, and interactive maps.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next-auth",
+          color: "green-text-gradient",
+        },
+        {
+          name: "context-api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: RealEstate,
       source_code_link: "https://github.com/",
     },
   ];

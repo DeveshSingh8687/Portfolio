@@ -24,12 +24,15 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import trantor from './company/trantor.jpg'
+import VirtualIntelligence from './company/VirtualIntelligence.png'
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import ecommmerce from './E-commerce.png'
 import Legitron from './Legitron.png'
 import GRC from './GRC.png'
+import RealEstate from './RealEstate.webp'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -58,11 +61,14 @@ export {
   meta,
   shopify,
   starbucks,
+  trantor,
+  VirtualIntelligence,
   tesla,
   carrent,
   ecommmerce,
   Legitron,
   GRC,
+  RealEstate,
   jobit,
   tripguide,
 };
