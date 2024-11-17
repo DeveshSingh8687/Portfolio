@@ -63,6 +63,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className={"mt-4"}><span className={styles.sectionSubText}>Phone -</span>&emsp;<span>7088196864</span></div>
+        <div><span className={styles.sectionSubText}>Email -</span>&emsp;<span>deveshgadharve86@gmail.com</span></div>
+        <div><span className={styles.sectionSubText}>LinkedIn -</span>&emsp;<span><a href="https://www.linkedin.com/in/deveshgandharve/" target="_blank">www.linkedin.com/in/deveshgandharve</a></span></div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -111,7 +114,7 @@ const Contact = () => {
       </motion.div>
       <motion.div 
         variants={slideIn('right', "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md-h-[550px] h-[350px] " 
+        className="xl:flex-1 xl:h-[800px] md-h-[550px] h-[350px] " 
       >
         <EarthCanvas />
       </motion.div>
